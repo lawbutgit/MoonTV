@@ -85,17 +85,37 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "name": "iKun资源"
     },
-     "qiqi": {
+    "qiqi": {
       "api": "https://www.qiqidys.com/api.php/provide/vod",
       "name": "七七资源"
     },
-     "lzift": {
+    "lzift": {
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "name": "影视工厂"
     },
-     "fantuan": {
+    "fantuan": {
       "api": "https://www.fantuan.tv/api.php/provide/vod",
       "name": "饭团影视"
-    }  
+    },
+    "archive_westerns": {
+      "api": "https://archive.org/details/movies?query=western&output=json",
+      "name": "Internet Archive Western Films"
+    },
+    "youtube_westerns": {
+      "api": "https://www.googleapis.com/youtube/v3/search?part=snippet&q=public+domain+western+movies&type=video&key=YOUR_YOUTUBE_API_KEY",
+      "name": "Public Domain Westerns (YouTube)"
+    },
+    "youtube_trailers": {
+      "api": "https://www.googleapis.com/youtube/v3/search?part=snippet&q=western+movie+trailer&type=video&key=YOUR_YOUTUBE_API_KEY",
+      "name": "YouTube Western Trailers"
+    },
+    "youtube_bonanza": {
+      "api": "https://www.googleapis.com/youtube/v3/search?part=snippet&q=bonanza+full+episode&type=video&key=YOUR_YOUTUBE_API_KEY",
+      "name": "Bonanza Episodes (YouTube)"
+    },
+    "youtube_series_clips": {
+      "api": "https://www.googleapis.com/youtube/v3/search?part=snippet&q=western+tv+show+clips&type=video&key=YOUR_YOUTUBE_API_KEY",
+      "name": "Western Series Highlights (YouTube)"
+    }
   }
 }
